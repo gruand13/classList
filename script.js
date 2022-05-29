@@ -1,20 +1,20 @@
 // const { jasmine } = require("jshint/src/vars");
 
-// "use strict";
+"use strict";
  const btns = document.querySelectorAll("button"),
         wrapper= document.querySelector('.btn-block');
 
  
 // вернет количество классов
-//  console.log(btns[0].classList.length);
+ console.log(btns[0].classList.length);
 // вернет класс под номером 
-//  console.log(btns[0].classList.item(0));
+ console.log(btns[0].classList.item(0));
 
 // console.log(btns[1].classList.add('red'));
 // console.log(btns[0].classList.remove('blue'));
 
 // переключение классов( если есть удаляет, если нету, добавляет)
-// console.log(btns[0].classList.toggle("blue"));
+console.log(btns[0].classList.toggle("blue"));
 
 
 // if (btns[1].classList.contains('red')){
